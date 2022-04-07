@@ -8,12 +8,11 @@ article > div > div{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
 
 article > div{
     display: flex;
     justify-content: center;
-    align-items: center;
-    align-content: center;
 }
 
