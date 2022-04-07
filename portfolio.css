@@ -1,4 +1,4 @@
-#defectTableLink, #rotatingCubeLink{
+article > div > div{
     width: 10vw;
     height: 10vw;
     overflow: hidden;
@@ -10,10 +10,10 @@
     align-items: center;
 }
 
+article > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 
-/* #rotatingCubeLink{
-    width: 10vw;
-    height: 10vw;
-    border: solid 1px black;
-    margin: 1vw;
-} */
