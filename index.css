@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 90vh;
+    background-color: lightblue;
+    width: 100%;
+}
+
+main > article{
+    display: flex;
+    width: 85%;
+    border: 2px solid black;
+    margin: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: (inherit -2px);
+    border-radius: 4%;
+    background-color: aliceblue;
+    @media screen {
+        font-size: fit-content;
+    }
+}
+
+main > aside{
+    display: flex;
+    width: 15%;
+    height: (inherit - 2px);
+    background-color: darkgray;
+    border: 2px solid black;
+    border-radius: 4.5%;
+    margin: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    @media screen {
+       font-size: fit-content; 
+    }
+}
+
+.hero-image{
+    height: 18rem;
+    width: 22rem;
+}
+
+.article-one{
+    /* font-family: 'Inspiration', cursive; */
+    max-width: 100%;
+    padding: 1vw;
+}
+
+.article-two{
+    font-family: 'Mukta', sans-serif;
+    max-width: 100%;
+    padding: 1vw; 
+}
