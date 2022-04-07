@@ -55,3 +55,14 @@ button{
     height: 2vw;
     margin-left: 1vw;
 }
+
+#catTextBox, div > p{
+    width: 25vw;
+    height: 15vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
